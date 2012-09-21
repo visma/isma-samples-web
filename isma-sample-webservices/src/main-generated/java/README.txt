@@ -1,0 +1,1 @@
+run src/main/resources/my_wsimport.bat

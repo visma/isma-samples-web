@@ -72,27 +72,4 @@
     <!--
     | Build Settings
     -->
-    <build>
-        <finalName>isma-troc</finalName>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>false</filtering>
-            </resource>
-            <resource>
-                <directory>src/main/resources-filtered</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <generatedSourcesDirectory>${project.basedir}/src/main-generated/java</generatedSourcesDirectory>
-                </configuration>
-            </plugin>
-
-        </plugins>
-    </build>
 </project>
