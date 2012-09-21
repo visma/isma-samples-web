@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" >
+<html>
+<head>
+    <title>Démonstration de panel d'onglets CSS </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="tabs.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="tabs.css"/>
+    <style>
+
+        body {
+            margin: 48px;
+            font-size: 100%;
+            font-family: arial, sans;
+            background-color: #FFF;
+        }
+
+        .legal {
+            text-align: center;
+            font-size: 80%;
+            color: #666;
+        }
+
+    </style>
+
+
+</head>
+
+
+<body>
+<div id="content">
+
+    <div id="tabs">
+        <ul>
+            <li><a href="#" rel="tab-css.html" class="selected" onclick="loadit(this)">CSS</a></li>
+            <li><a href="#" rel="tab-dom.html" onClick="loadit(this)">DOM</a></li>
+            <li><a href="#" rel="tab-javascript.html" onClick="loadit(this)">JavaScript</a></li>
+        </ul>
+        <iframe id="container"></iframe>
+    </div>
+
+</div>
+</body>
+</html>

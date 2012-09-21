@@ -1,0 +1,32 @@
+* {
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
+html {
+    /*height: 100%;*/
+}
+
+body {
+    /*height: 100%;*/
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    background: #fff6f2;
+}
+
+article {
+    border: black solid 1px;
+    border-spacing: 10px;
+    margin: 10px 50px 10px 50px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/*article header, article footer {*/
+/*border:1px dashed #ccc;*/
+/*padding:1em;*/
+/*background:#ddd;*/
+/*}*/

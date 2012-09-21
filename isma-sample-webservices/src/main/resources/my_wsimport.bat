@@ -1,0 +1,1 @@
+"%JAVA_HOME%/bin/wsimport" -d ../../../target/classes/ -s ../../../src/main-generated/java/  -p com.ECS.client.jax http://webservices.amazon.com/AWSECommerceService/AWSECommerceService.wsdl -b jaxws-custom.xml .
